@@ -41,6 +41,8 @@ type LockDetails struct {
 	Owner string
 	// The host that the lock is being created from.
 	Host string
+	// The request path
+	Path string
 	// The time to live (TTL) for the lock, in seconds. Setting this to 0
 	// means that the lock will not have a TTL.
 	TTL uint
