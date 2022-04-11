@@ -43,6 +43,8 @@ type LockDetails struct {
 	Host string
 	// Comment to add context for the lock.
 	Comment string
+	// The request path
+	Path string
 	// The time to live (TTL) for the lock, in seconds. Setting this to 0
 	// means that the lock will not have a TTL.
 	TTL uint
